@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+folium
+plotly
+dash
+requests
+openpyxl
+nbformat
+nbclient
+ipykernel

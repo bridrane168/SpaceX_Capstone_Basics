@@ -1,0 +1,37 @@
+Dataset rows: 90
+Train rows: 67
+Test rows: 23
+Features: ['FlightNumber', 'PayloadMass', 'Flights', 'GridFins', 'Reused', 'Legs', 'Block', 'ReusedCount', 'Orbit', 'LaunchSite', 'Serial']
+
+=== Logistic Regression ===
+              Model  Accuracy  Precision  Recall  F1 score
+Logistic Regression  0.826087   0.789474     1.0  0.882353
+Confusion matrix (rows actual [0,1], columns predicted [0,1]):
+[[ 4  4]
+ [ 0 15]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.50      0.67         8
+           1       0.79      1.00      0.88        15
+
+    accuracy                           0.83        23
+   macro avg       0.89      0.75      0.77        23
+weighted avg       0.86      0.83      0.81        23
+
+
+=== Decision Tree ===
+        Model  Accuracy  Precision   Recall  F1 score
+Decision Tree  0.869565      0.875 0.933333  0.903226
+Confusion matrix (rows actual [0,1], columns predicted [0,1]):
+[[ 6  2]
+ [ 1 14]]
+              precision    recall  f1-score   support
+
+           0       0.86      0.75      0.80         8
+           1       0.88      0.93      0.90        15
+
+    accuracy                           0.87        23
+   macro avg       0.87      0.84      0.85        23
+weighted avg       0.87      0.87      0.87        23
+
+
